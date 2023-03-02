@@ -9,6 +9,15 @@ To train svm model ,directly execution [train.py](https://github.com/Robert0831/
 To train Lightgbm model,directly execution [trainlgb.py](https://github.com/Robert0831/Classfication/blob/main/trainlgb.py)
 
 ----------------------------------------------------------------------------
+Testing
+
+To test three model directly execution [test.py](https://github.com/Robert0831/Classfication/blob/main/test.py)
+
+To test on validation set or test set you need to change xxx to val_loader or test_loader
+
+->  for batch_idx, (img,data) in enumerate(xxx):
+
+----------------------------------------------------------------------------
 
 Pretrain model download
 
