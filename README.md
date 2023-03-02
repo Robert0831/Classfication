@@ -1,4 +1,8 @@
 # Image Classfication
+
+Train model
+To train deeplearning way model [nn.py](https://github.com/Robert0831/Classfication/blob/main/nn.py)
+
 Pretrain model download
 
 SVM:https://drive.google.com/file/d/1D99LLhI_kxqGylxLPyOlHawjdxv4r6fv/view?usp=share_link
