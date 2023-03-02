@@ -43,8 +43,3 @@ class Dataset50(object):
         labels=self.dataframe['class'][index]
         return img,labels
     
-#trr=Dataset50('test.txt')
-#inputs['cameraFront'][row_idx] = (self.imageFront_transform(Image.open(BytesIO(self.zz.read(wway + row['cameraFront'])))))
-
-      
-
