@@ -1,7 +1,12 @@
 # Image Classfication
 
 Train model
-To train deeplearning way model [nn.py](https://github.com/Robert0831/Classfication/blob/main/nn.py)
+
+To train deeplearning way model ,directly execution [nn.py](https://github.com/Robert0831/Classfication/blob/main/nn.py)
+
+
+
+
 
 Pretrain model download
 
