@@ -32,7 +32,7 @@ totalv=len(val_loader.dataset)
 
 fnn=FNN()
 #fnn.load_state_dict(torch.load("./nnmodel_100.pth"))
-optimize=torch.optim.SGD(fnn.parameters(),lr=0.01)
+optimize=torch.optim.SGD(fnn.parameters(),lr=0.001)
 lossfc=nn.CrossEntropyLoss()
 #hog=cv2.HOGDescriptor((32,32),(16,16),(2,2),(4,4),1)
 for epoch in range(20):
