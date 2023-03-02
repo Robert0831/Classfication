@@ -53,10 +53,3 @@ for epoch in range(5):
                 print(out)
                 print(data)
     torch.save(fnn.state_dict(), "nnmodel_%d.pth" %(epoch))
-
-
-
-# clf = load('trainmodel.joblib') 
-# y_pred = clf.predict(imgs)
-# print(y_pred)
-# print(datas)
