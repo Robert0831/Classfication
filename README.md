@@ -6,6 +6,8 @@ To train deeplearning  model ,directly execution [nn.py](https://github.com/Robe
 
 To train svm model ,directly execution[train.py](https://github.com/Robert0831/Classfication/blob/main/train.py)
 
+To train Lightgbm model,directly execution[trainlgb.py](https://github.com/Robert0831/Classfication/blob/main/trainlgb.py)
+
 ----------------------------------------------------------------------------
 
 Pretrain model download
