@@ -26,8 +26,3 @@ for batch_idx, (img,data) in enumerate(train_loader):
     #clf.partial_fit(imgs,datas,classes=np.unique(datas))
 clf.fit(imgs, datas)
 dump(clf, 'trainmodel.joblib') 
-
-# clf = load('trainmodel.joblib') 
-# y_pred = clf.predict(imgs)
-# print(y_pred)
-# print(datas)
