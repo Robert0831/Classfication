@@ -25,4 +25,4 @@ Lightgbm:[lgbmodel.txt](https://github.com/Robert0831/Classfication/blob/main/lg
 
 SVM:https://drive.google.com/file/d/1D99LLhI_kxqGylxLPyOlHawjdxv4r6fv/view?usp=share_link
 
-DEEP LEARNING:https://drive.google.com/file/d/1bf072phndgx-e40jNyDV4l2czKhXZuUa/view?usp=share_link
+DEEP LEARNING:https://drive.google.com/file/d/1UvGmyUvqBb13DlTGbRn5CAP551pF2m_d/view?usp=share_link
