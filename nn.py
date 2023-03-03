@@ -35,7 +35,7 @@ fnn=FNN()
 optimize=torch.optim.SGD(fnn.parameters(),lr=0.001)
 lossfc=nn.CrossEntropyLoss()
 #hog=cv2.HOGDescriptor((32,32),(16,16),(2,2),(4,4),1)
-for epoch in range(20):
+for epoch in range(10):
     nnans_1t=0
     nnans_5t=0
     nnans_1v=0
@@ -89,9 +89,9 @@ for epoch in range(20):
                 nnans_5v+=1
 
     print(f'Epoch:{epoch} ; Training top-1 accuracy:{round(nnans_1t/totalt,5)},top-5 accuracy:{round(nnans_5t/totalt,5)} ; Validation top-1 accuracy:{round(nnans_1v/totalv,5)},top-5 accuracy:{round(nnans_5v/totalv,5)}') 
-    logger = open('score.txt', 'a')
-    logger.write('%f %f %f %f\n'%(round(nnans_1t/totalt,5),round(nnans_5t/totalt,5),round(nnans_1v/totalv,5),round(nnans_5v/totalv,5)))
-    logger.close()
+    # logger = open('score.txt', 'a')
+    # logger.write('%f %f %f %f\n'%(round(nnans_1t/totalt,5),round(nnans_5t/totalt,5),round(nnans_1v/totalv,5),round(nnans_5v/totalv,5)))
+    # logger.close()
 
         # if batch_idx%50==0:
         #     print(f'epoch={epoch} ,batch={batch_idx},loss={loss}')
@@ -104,5 +104,6 @@ for epoch in range(20):
         #         print(data)
 
     torch.save(fnn.state_dict(), "nnmodel_test.pth" )
+
 
 
