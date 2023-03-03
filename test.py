@@ -60,7 +60,7 @@ class FNN(nn.Module):
         output=self.allnn(x)
         return output
 fnn=FNN()
-fnn.load_state_dict(torch.load("./nnmodel_100.pth"))
+fnn.load_state_dict(torch.load("./nnmodel_test.pth"))
 
 fnn.eval()
 nnans_1=0
